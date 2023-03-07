@@ -1,0 +1,100 @@
+----------------1--------------
+{Thank you for|Thanks for|We are thankful for|We are grateful for|Many thanks for} {your|your recent|recent} {order|purchase order} {#|№}ORDER NUMBER Your {online payment|payment} in amount of AMOUNT was {approved|processed|successfully approved|successfully processed}. Your {items|products} are {already prepared|currently being prepared} for {shipment|delivery|transport|sending|carriage}. I {attach|apply} the {document|doc|file} with your {check|invoice|bank check} to this {letter|e-mail|email}. Also it {includes|contains} all {delivery|transport|shipment} {details|information|info|data}.
+
+TOPIC:
+{Transaction|Payment} TRANSACTION NUMBER is {processed|completed|approved}\
+
+ATTACHMENTS:
+ord_data_wh
+infbuy
+116738_DESC
+doc_bundle
+appr_ord
+inv_deliv_inf
+inf_list_374
+
+--------------2-------------
+I am|I’m|My name is} {Brian Lewi|Joseph M. Fritz|Eric Starks|Sergio G. Langley|Larry Richardson|Maria Callaham|Miriam D. Wilkens|Michael Hunter|Eric M. Lindsey|Elizabeth Watson|Nathan M. Pahl|Thelma Perkins|Joe Allen|Henry J. Pulliam|Jesse White|Lydia M. Garfield|John Finley|Karen A. Farmer|Mary Lester|Sara A. McCray}, {general|main|chief|major} manager of {Main Culture|Fury Industries|Eureka|Tunnel Systems|Bait Systems|Substrate} {store|shop|online store}. I am {glad|pleased|happy} to {inform you|let you know|notify you} that your {transfer|payment|transaction|transaction} for {order|online order|purchase order} ORDER NUMBER{in amount of|for} AMOUNT was {approved|processed|successfully approved|successfully processed}. 
+{To review|To view|To get} all {order|purchase order} and {payment|transaction|transfer} {documentation|papers|documents|documentation}, please {check the|look at the|look into the|check out the} {attached file|file attached}.
+
+TOPIC:
+Your {order|purchase|purchase order} is {fully|completely|totally} {paid|compensated}; {transaction|payment} TRANSACTION NUMBER is {processed|completed|approved}
+
+ATTACHMENTS:
+PAYM_INF_APPR
+ACCEPT_TRANS_2943
+client_info
+PERF.PAYM
+FL_INF
+transf_data\ndetails+inv
+
+-----------------3---------------
+We have|We|We’ve} {approved|received|processed} {your|the} {fund|money} transfer for AMOUNT {you have|you’ve|you} {sent|directed|forwarded}. Our {accountants|financiers|managers} have already {sent|forwarded|transferred} {it|your payment|payment|this payment} to {specified|desired} {person|bank account|account}. 
+All {information about|details of} {this transaction|transaction|funds transfer|transfer} TRANSACTION NUMBER {you can view|you will find|you can find} in the {document attached|attached document|attached file}.
+
+TOPIC: 
+{Transaction|Transfer|Funds transfer} act DOCUMENT NUMBER {accepted|processed|approved|forwarded}\
+
+
+ATTACHMENTS:
+transfer_info
+FT_SUMMARY
+inform_transf
+usr_data
+FT-approval
+trasfer_system_99923
+transf_receive
+
+----------------4---------------
+{As you|Right as you} {asked|requested|demanded}, here we {inform you|tell you|notify you|give you information} {about|regarding} {your|your chosen|your current|your personal} {booking|order} for {2|two (2)|2 (two)} {air tickets|airline tickets}. {We have|We’ve} {found|reserved} {appropriate|correct} {option|choice} and {successfully|correctly|timely} {confirmed|approved|completed} {payment|your payment} for AMOUNT from ДАТА. {In the|Inside the} attachment {to this|to the} {letter|mail|e-mail|message}, {you will find|you'll find|you can find} {2|two} {electronic tickets|e-tickets|air tickets}and {related|associated|referred|other} {payment|advance payment|bank payment} {documentation|papers|documents} for invoice НОМЕР ИНВОЙСА.\n\n\nTOPIC:\n{Compensation|Payment} for {booking|order} НОМЕР БРОНИРОВАНИЯ is {successfully|efficiently|correctly|timely|actually} {confirmed|approved}\n\n\nATTACHMENTS:\nBOOK_76478\nTICK_ORD\nticket_paym\nPAID_TICK\netick_appr\nB+T_data\ntravel_data
+
+
+---------------5-------------
+{We want to|We wish to|We would like to|We're here to} {inform you|let you know|notify you} {that your|that your personal} {transaction|payment|advance payment|money transfer} operation OPERATION NUMBER for AMOUNT is {successfully|safely|correctly} {processed|completed|approved|accepted} and {sent|delivered|paid|directed|forwarded} to the {specified|selected|stated|chosen} {recipient|person|specified recipient|recipient's account|financial institution|account}. {All information|All info|All details} {can be found in|you can find} the {attached file|file attached}.
+
+TOPIC:
+{Successfully|Efficiently|Correctly} {completed|approved|processed} {transfer|payment|transaction} {#|№}TRANSACTION NUMBER 
+
+ATTACHMENTS:
+sent_paym_inf
+conf_transac
+SND_approval
+transf_85765
+INST_TRAN_34
+receive_34703
+data_paid_89374\
+
+
+-------------6-----------
+{You have|You've} {submitted|formed|put} {an application|an application form} {for a|to obtain} 3-year {subscription|membership|member subscription} НОМЕР ПОДПИСКИ {to our|to the} {booking|ticket monitoring|book discount|e-book} {service|web service}. {Basic|Starter|Initial} {payment|settlement} {in the amount of|in the sum of|for total sum of} AMOUNT, was {successfully|correctly|timely} {checked|verified} and {approved|affirmed|completed|collected|covered} by our {accounting|financial|subscriptions} {dept|department|branch}. Attached {you will find|you'll find|you will discover} all {payment|settlement|payments} {information and|details and} {subscription|membership} {details|information|info}.
+
+TOPIC:
+Client {subscription|membership|member subscription} НОМЕР КЛИЕНТА {is covered|is activated|is active}.
+
+ATTACHMENTS:
+SUBSC_PAYM
+SERV_DOC_839
+subscr_confirm
+MEMB_087_NOTIF
+subscr_info\nSUBSCR_NOTE
+paym_specs
+
+
+-------------7-----------
+{Greetings|Hello|Good day to you|Good aаternoon}{!|,|}
+
+{Your payment|Payment you sent|Payment we received from you|Your advance payment} {in the amount of|for the total sum of|in the sum of} AMOUNT is {processed|completed|managed|checked} and {approved|affirmed|collected} by our {managers|operators|financial department|financial dept}. 
+Please {check your|look at your|inspect your|check the} {payment|transaction} {information|details} for {transfer|funds transfer} TRANSACTION NUMBER, {delivery|transport|shipping} {details|information} and {payslip|bank check} {in the|inside the} {attached file|file attached}. 
+{Thank you for the|Thanks for the|We are grateful for the|We appreciate your} {order|purchase|online order}!
+
+TOPIC:
+Your {personal|online} {order|purchase|purchase order} invoice INVOICE NUMBER {is paid|is covered|is compensated|is fully covered}
+
+ATTACHMENTS:
+Ord_sum
+Paym_inf
+Ord_doc_1111
+Shipm_det
+Paym_data
+Extend_summ
+Det_inf"

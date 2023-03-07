@@ -1,0 +1,329 @@
+﻿Malware Development https://0xpat.github.io
+
+               I. BYPASS AND INJECTION TECHNIQUES
+
+
+https://habr.com/post/430302/
+https://github.com/gaffe23/linux-inject
+https://www.evilsocket.net/2015/05/01/dynamically-inject-a-shared-library-into-a-running-process-on-androidarm/ ).
+https://github.com/DavidBuchanan314/dlinject
+https://stackoverflow.com/questions/24355344/inject-shared-library-into-a-process
+
+
+
+1. Procecc Injection
+
+https://github.com/stephenfewer/ReflectiveDLLInjection
+https://github.com/dismantl/ImprovedReflectiveDLLInjection
+
+https://github.com/fancycode/MemoryModule
+
+https://github.com/bats3c/DarkLoadLibrary/blob/master/DarkLoadLibrary/src/ldrutils.c
+https://www.mdsec.co.uk/2021/06/bypassing-image-load-kernel-callbacks/
+https://github.com/DimopoulosElias/SimpleShellcodeInjector/blob/master/SimpleShellcodeInjector.c
+
+
+2. Hooks
+
+https://www.ragestorm.net/blogs/?p=107
+https://www.malwaretech.com/2013/10/ring3-ring0-rootkit-hook-detection-22.html
+https://github.com/m0n0ph1/Process-Hollowing
+https://github.com/itm4n/VBA-RunPE
+
+4. PROCESS DOPPELGäNGING
+
+https://github.com/hasherezade/process_doppelganging/blob/master/main.cpp
+https://hshrzd.wordpress.com/2017/12/18/process-doppelganging-a-new-way-to-impersonate-a-process/
+https://blog.malwarebytes.com/threat-analysis/2018/08/process-doppelganging-meets-process-hollowing_osiris/
+https://github.com/hasherezade/transacted_hollowing
+
+4.1. PROCESS HERPADERPING
+
+https://jxy-s.github.io/herpaderping/
+https://github.com/jxy-s/herpaderping.git
+
+
+5. SHELL CODE
+
+https://habr.com/ru/post/522966/
+http://www.hick.org/code/skape/papers/win32-shellcode.pdf
+http://www.hick.org/~mmiller/
+https://www.corelan.be/index.php/2010/02/25/exploit-writing-tutorial-part-9-introduction-to-win32-shellcoding/
+https://github.com/dismantl/ImprovedReflectiveDLLInjection/blob/master/dll/src/ReflectiveLoader.c
+https://vxug.fakedoma.in/papers/VXUG/Exclusive/HellsGate.pdf
+https://github.com/hasherezade/pe_to_shellcode
+
+
+6. INJECT PE / INFECT PE
+
+https://github.com/secrary/InfectPE/
+https://github.com/JonDoNym/peinjector
+
+
+
+               II. Defense Techniques And Defense Bypass
+
+https://n4r1b.com/posts/2020/01/dissecting-the-windows-defender-driver-wdfilter-part-1/
+https://n4r1b.com/posts/2020/02/dissecting-the-windows-defender-driver-wdfilter-part-2/
+https://n4r1b.com/posts/2020/03/dissecting-the-windows-defender-driver-wdfilter-part-3/
+https://n4r1b.com/posts/2020/04/dissecting-the-windows-defender-driver-wdfilter-part-4/
+
+
+Signature Databases and Malware Detection
+https://github.com/hfiref0x/WDExtract
+https://virustotal.github.io/yara/
+https://www.nextron-systems.com/2018/12/21/yara-rule-sets-and-rule-feed/
+https://github.com/Neo23x0/signature-base/
+https://github.com/InQuest/awesome-yara
+https://habr.com/ru/company/varonis/blog/584618/
+https://resources.infosecinstitute.com/topic/yara-simple-effective-way-dissecting-malware/
+
+
+DISABLE WINDOWS DEFENDER
+
+HKLM|HKCU\MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Paths
+HKLM|HKCU\MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Exclusions\Paths
+
+
+Syscalls
+
+https://github.com/hzeroo/Carberp/blob/master/source%20-%20absource/pro/all%20source/RemoteCtl/DrClient/GetApi.h
+https://github.com/JustasMasiulis/inline_syscall
+https://github.com/vxunderground/WinAPI-Tricks
+
+
+Code Obfuscation
+
+https://github.com/jacob-baines/jit_obfuscation_poc
+https://back.engineering/tags/vmprotect-2/
+https://github.com/obfuscator-llvm/obfuscator
+https://0xpat.github.io/Malware_development_part_6/
+http://www.star-force.ru/products/starforce-obfuscator/
+
+
+String Obfuscation
+
+https://github.com/andrivet/ADVobfuscator
+https://github.com/Snowapril/String-Obfuscator-In-Compile-Time (основан на Andrivet)
+https://github.com/adamyaxley/Obfuscate
+https://github.com/fritzone/obfy
+https://github.com/revsic/cpp-obfuscator
+
+
+Packers and Archiving
+
+https://xss.is/threads/39006/
+https://habr.com/ru/company/solarsecurity/blog/519994/
+https://iwantmore.pizza/posts/PEzor.html
+https://github.com/TheWover/donut
+https://github.com/EgeBalci/sgn
+https://github.com/oddcod3/Phantom-Evasion
+https://github.com/ximerus/Kryptonite
+https://www.apriorit.com/white-papers/293-nanomite-technology
+
+Unhooking
+
+https://www.first.org/resources/papers/telaviv2019/Ensilo-Omri-Misgav-Udi-Yavo-Analyzing-Malware-Evasion-Trend-Bypassing-User-Mode-Hooks.pdf
+https://github.com/apriorit/antirootkit-anti-splicer
+https://github.com/CylanceVulnResearch/ReflectiveDLLRefresher
+https://github.com/asaurusrex/Probatorum-EDR-Userland-Hook-Checker
+https://github.com/Mr-Un1k0d3r/EDRs
+
+
+Injection Defense
+
+https://ethicalchaos.dev/2020/06/14/lets-create-an-edr-and-bypass-it-part-2/
+
+End Process Defense
+
+https://stackoverflow.com/questions/6185975/prevent-user-process-from-being-killed-with-end-process-from-process-explorer
+https://www.codeproject.com/Articles/43405/Protecting-Your-Process-with-RtlSetProcessIsCriti
+http://www.rohitab.com/discuss/topic/40275-set-a-process-as-critical-process-using-ntsetinformationprocess-function/
+https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute
+https://www.crowdstrike.com/blog/evolution-protected-processes-part-1-pass-hash-mitigations-windows-81
+https://www.crowdstrike.com/blog/evolution-protected-processes-part-2-exploitjailbreak-mitigations-unkillable-processes-and
+http://www.nosuchcon.org/talks/2014/D3_05_Alex_ionescu_Breaking_protected_processes.pdf
+https://www.unknowncheats.me/forum/anti-cheat-bypass/271789-pplib-ppl-processes.html
+https://github.com/notscimmy/pplib
+https://www.blackhat.com/docs/asia-17/materials/asia-17-Braeken-Hack-Microsoft-Using-Microsoft-Signed-Binaries-wp.pdf
+https://github.com/Mattiwatti/PPLKiller
+https://github.com/katlogic/WindowsD
+https://security.stackexchange.com/questions/30985/create-a-unterminable-process-in-windows
+
+End Process (System Shutdown)
+
+https://docs.microsoft.com/en-us/windows/console/registering-a-control-handler-function
+https://docs.microsoft.com/en-us/windows/win32/shutdown/shutdown-changes-for-windows-vista
+https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms700677(v=vs.85)
+
+Mitigation
+
+http://www.sekoia.fr/blog/microsoft-edge-binary-injection-mitigation-overview/
+https://github.com/SekoiaLab/BinaryInjectionMitigation/
+https://habr.com/ru/post/494000/
+
+
+File Reputation
+
+https://wiki.mozilla.org/Security/Features/Application_Reputation_Design_Doc
+
+LOLBAS
+
+https://lolbas-project.github.io/
+https://github.com/api0cradle/LOLBAS
+
+Replace Parent Process
+
+https://blog.f-secure.com/detecting-parent-pid-spoofing/
+
+ZERG RUSH
+
+https://habr.com/ru/company/solarsecurity/blog/519994/
+
+AMSI BYPASS
+
+https://s3cur3th1ssh1t.github.io/Bypass_AMSI_by_manual_modification/
+https://s3cur3th1ssh1t.github.io/Bypass-AMSI-by-manual-modification-part-II/
+https://github.com/RythmStick/AMSITrigger
+https://amsi.fail/
+https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell
+https://reconshell.com/chimera-powershell-obfuscation-script-for-bypass-amsi-and-antivirus/
+
+
+FAT BINARY
+
+https://en.wikipedia.org/wiki/Fat_binary
+https://habr.com/ru/company/macloud/blog/545278/
+
+
+               III. SANDBOX AND EMULATION DETECTION
+
+SANDBOX DETECTION
+
+https://github.com/LordNoteworthy/al-khaser
+https://github.com/a0rtega/pafish
+https://0xpat.github.io/Malware_development_part_2/
+https://www.blackhat.com/docs/us-17/thursday/us-17-Kotler-The-Adventures-Of-Av-And-The-Leaky-Sandbox.pdf):
+https://habr.com/ru/company/solarsecurity/blog/473086/
+https://habr.com/ru/company/pt/blog/507912/
+https://blog.talosintelligence.com/2020/05/astaroth-analysis.html (Anti-analysis/Anti-sandbox mechanisms)
+
+Emulation Bypass
+
+https://wikileaks.org/ciav7p1/cms/files/BypassAVDynamics.pdf
+https://winternl.com/fuzzing-the-windows-api-for-av-evasion/
+https://github.com/jackullrich/Windows-API-Fuzzer
+https://github.com/SPTHvx/SPTH/blob/master/articles/files/dynamic_anti_emulation.txt
+https://habr.com/ru/company/pt/blog/551954/
+
+
+               IV. PERSISTENCE TECHNIQUES
+
+[HKLM|HKCU]\Software\Microsoft\Windows\CurrentVersion\Run
+https://habr.com/ru/post/425177/ хороший обзор техник.
+http://www.hexacorn.com/blog/2017/01/28/beyond-good-ol-run-key-all-parts/ огромное количество стандартных
+
+               V. REVERSE SHELL AND C&C
+
+http://www.marc-blanchard.com/BotInvaders/index.php
+https://habr.com/ru/company/kaspersky/blog/522128/
+https://suricata-ids.org/
+https://habr.com/ru/company/dcmiran/news/t/563206/
+https://github.com/bee-san/pyWhat
+https://sslbl.abuse.ch
+https://urlhaus.abuse.ch
+https://feodotracker.abuse.ch
+https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967
+https://habr.com/ru/company/acribia/blog/560168/
+https://github.com/salesforce/ja3
+https://ja3er.com/form
+https://www.bc-security.org/post/ja3-s-signatures-and-how-to-avoid-them
+https://www.vectra.ai/blogpost/c2-evasion-techniques
+https://docs.microsoft.com/en-us/windows/win32/secauthn/prioritizing-schannel-cipher-suites
+https://safe.cnews.ru/news/top/2020-09-08_hakerynaemniki_shest_let
+https://habr.com/ru/company/pt/blog/497608/
+https://habr.com/ru/company/varonis/blog/513160/
+https://www.cobaltstrike.com/help-malleable-c2
+https://github.com/threatexpress/random_c2_profile
+https://github.com/FSecureLABS/C3
+https://www.blackhat.com/docs/us-17/thursday/us-17-Kotler-The-Adventures-Of-Av-And-The-Leaky-Sandbox.pdf
+
+
+               VI. PRIVILEGE ESCALATION
+
+UAC BYPASS
+
+https://github.com/hfiref0x/UACME
+
+
+LPE
+
+https://habr.com/ru/post/428602/
+https://habr.com/ru/company/otus/blog/530596/
+https://habr.com/ru/company/pt/blog/566698/
+
+
+               VII. ANALYSIS
+
+
+API MONITORS
+
+API Monitor (Windows rohitab)
+Linux - strace
+
+TRAFFIC
+
+Wireshark
+https://mitmproxy.org/
+
+PATCH DIFFING / BINARY DIFFING
+
+https://habr.com/ru/company/dsec/blog/479972/
+https://wumb0.in/extracting-and-diffing-ms-patches-in-2020.html
+
+FUZZING
+
+https://habr.com/ru/company/dsec/blog/517596/
+https://github.com/google/AFL
+https://github.com/googleprojectzero/winafl
+https://habr.com/ru/company/bizone/blog/570312/
+https://habr.com/ru/company/bizone/blog/570534/
+https://wcventure.github.io/FuzzingPaper/
+
+
+               VIII. ADDITIONAL SERVICES AND HELPERS
+
+EXCLUSIONS EXAMINATION
+
+https://habr.com/ru/post/536990/
+https://docs.microsoft.com/ru-ru/windows/win32/debug/using-a-vectored-exception-handler (AddVectoredExceptionHandler())
+https://docs.microsoft.com/en-us/cpp/cpp/try-except-statement?view=vs-2019 (try ... __except)
+https://stackoverflow.com/questions/51701426/cannot-use-try-in-functions-that-require-object-unwinding-fix
+
+
+.MAP FILES
+
+https://www.codeproject.com/articles/3472/finding-crash-information-using-the-map-file
+
+
+MICROSOFT RICH HEADER
+
+http://ntcore.com/files/richsign.htm
+http://bytepointer.com/articles/the_microsoft_rich_header.htm
+
+32/64 BIT
+
+https://medium.com/@fsx30/hooking-heavens-gate-a-wow64-hooking-technique-5235e1aeed73
+http://blog.rewolf.pl/blog/?p=102
+https://github.com/rwfpl/rewolf-wow64ext
+
+
+               BOOKS
+
+1. Russinovich, Windows Internals Part 1 https://rutracker.org/forum/viewtopic.php?t=4469765
+2. Russinovich, Windows Internals Part 2 https://rutracker.org/forum/viewtopic.php?t=4727796
+3. Linux Kernel https://rutracker.org/forum/viewtopic.php?t=5169029
+4. C++ https://rutracker.org/forum/viewtopic.php?t=694260
+5. 507 Articles by Kris Kaspersky https://rutracker.org/forum/viewtopic.php?t=5375505
+6. Understanding Windows Shellcode http://www.hick.org/code/skape/papers/win32-shellcode.pdf
+7. https://0xpat.github.io/ Malware development

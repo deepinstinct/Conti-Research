@@ -1,0 +1,156 @@
+
+Networks
+
+https://habr.com/ru/company/selectel/blog/576482/
+
+Technique, Tactic and Strategy
+
+https://habr.com/ru/company/cloud4y/blog/551376/
+https://gist.github.com/jaredsburrows/9e121d2e5f1147ab12a696cf548b90b0
+
+
+Reconnaissance and Targeting
+
+https://hackertarget.com/whois-lookup/
+https://habr.com/ru/post/554458/
+https://www.zoominfo.com
+https://securelist.ru/corporate-doxing/101055/
+
+OSINT
+  https://github.com/laramies/theHarvester
+  https://github.com/Bafomet666/OSINT-SAN
+  https://mor-pah.net/software/dmitry-deepmagic-information-gathering-tool/
+  https://github.com/0xInfection/TIDoS-Framework
+  https://github.com/smicallef/spiderfoot
+  https://osintframework.com/
+  https://hunter.io/
+  https://hackertarget.com/
+
+* Companies
+  https://www.zoominfo.com
+  https://opencorpdata.com/
+  https://domainbigdata.com/ 
+  https://opencorporates.com/ 
+  https://www.sec.gov/edgar/searchedgar/cik.htm 
+  http://www.orsr.sk/search_osoba.asp?lan=en 
+More at: https://habr.com/ru/company/pentestit/blog/554006/
+
+USERNAME/NICKNAME:
+  https://namechk.com/
+  https://github.com/snooppr/snoop
+
+* EMAIL:
+  https://haveibeenpwned.com/
+  https://hacked-emails.com/
+  https://ghostproject.fr/
+  https://weleakinfo.com/
+  https://pipl.com/
+  https://leakedsource.ru/
+  http://mailtester.com/
+  "Skype"
+
+* Phone:
+  https://phonenumber.to
+  https://pipl.com/
+  GetContact
+  NumBuster
+  https://www.truecaller.com/
+  http://doska-org.ru/
+
+* Networking
+  https://www.shodan.io/
+  https://spyse.com/
+  https://crt.sh/ 
+  https://archive.org/web/ 
+  https://viewdns.info/ 
+  https://github.com/Fadavvi/Sub-Drill 
+  https://builtwith.com/ 
+
+* Location:
+  http://unwiredlabs.com
+  http://xinit.ru/bs/
+
+* Social Networks
+  http://sanstv.ru/photomap 
+  https://foller.me/ 
+  https://followerwonk.com/ - social analytics mega-tool that digs through Twitter data
+  https://tinfoleak.com/ - Search for Twitter users leaks
+  https://twicsy.com/ - Twicsy is social pics
+  https://www.spokeo.com/- 
+  https://github.com/jivoi/awesome-osint
+
+* Books
+  https://anonfiles.com/X0md34ycu1/Operator_Handbook_Red_Team_OSINT_Blue_Team_Reference_pdf
+  Bellingcat’s Online Investigation Toolkit - https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/edit
+
+* MITM/Phisihng Scanners:
+  https://beefproject.com/
+  https://github.com/beefproject/beef 
+  https://github.com/kgretzky/evilginx2 - 2fa Bypass
+
+
+ENTRY VECTOR
+
+Network Defense
+
+https://habr.com/ru/company/dsol/blog/541832/
+https://habr.com/ru/company/otus/blog/541582/
+https://suricata-ids.org/
+Пhttps://malware-traffic-analysis.net/
+https://habr.com/ru/company/dcmiran/news/t/563206/
+https://github.com/bee-san/pyWhat
+
+https://github.com/WalterDiong/TLS-Malware-Detection-with-Machine-Learning
+https://habr.com/ru/post/549050/
+
+
+TOOLS
+
+1. Metasploit Framework (MSF) (+armitage GUI) 
+2. Core Impact (+impacket python) 
+3. Powershell Empire - pure powershell 
+4. Posh2c
+5. Koadik 
+6. Cobalt Strike 
+   https://www.cobaltstrike.com/downloads/csmanual43.pdf
+7. Burp Suite 
+8. Pupy - RAT (Remote Administration Tool)
+   https://github.com/n1nj4sec/pupy
+   https://ptestmethod.readthedocs.io/en/latest/pupy.html
+   https://github.com/infodox/python-dll-injection
+
+https://www.offensive-security.com/metasploit-unleashed/modules-and-locations/
+
+Network Scanner
+Enum4linux https://github.com/CiscoCXSecurity/enum4linux
+
+Stealers, Credential Dumpers
+Mimikatz https://habr.com/ru/company/varonis/blog/539340/
+Patator https://github.com/lanjelot/patator (password brute forcer)
+
+SQL Injection and WEB Vulnerabilities Scanners
+https://habr.com/ru/post/542190/
+SQLMap http://sqlmap.org/
+jSQL-Injection https://github.com/ron190/jsql-injection
+https://github.com/commixproject/commix https://habr.com/ru/post/550252/
+Wapiti https://wapiti.sourceforge.io/ (web scanner/fuzzer)
+OWASP ZAP  https://www.zaproxy.org/ (web scanner/fuzzer/MITM proxy)
+
+
+ATTACK TACTIC
+
+(Most important goal is AD)
+https://www.varonis.com/blog/the-difference-between-active-directory-and-ldap/
+https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet
+https://attack.mitre.org/matrices/enterprise/windows/
+https://habr.com/ru/post/543806/
+
+MITRE
+https://habr.com/post/423405/
+https://habr.com/post/424027/
+https://habr.com/post/425177/
+https://habr.com/post/428602/
+https://habr.com/post/432624/
+
+https://habr.com/ru/company/group-ib/blog/545104/
+
