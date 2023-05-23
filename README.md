@@ -6,7 +6,7 @@ Conti is one of the most notorious ransomware groups of our time, garnering fame
 
 In this research, we will take you on a journey through Conti’s milestones: its formation, most notable attacks, and the U.S. authorities’ attempts to hunt down the group’s members and disband it. We’ll also review Conti’s in-house struggles, its role in the Russia-Ukraine war, detail the release of some of its most sensitive documents, and describe the group’s steep fall from grace.
 
-Full details of the research can be found in the full report on www.deepinstinct.com
+Full details of the research can be found in the full report on https://info.deepinstinct.com/conti-leaks-cyber-threat-reports
 ![image](https://user-images.githubusercontent.com/121618341/233829809-1b761041-d49b-48b5-b987-f52a0d1c1906.png)
 
 
